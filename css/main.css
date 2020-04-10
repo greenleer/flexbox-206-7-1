@@ -102,6 +102,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 1.25em;
@@ -110,17 +111,28 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  height: 100vh;
+  background-image: url('../img/bkgd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #a1a1a1;
+  border-radius: 10%;
+  opacity: .9;
+  padding: 20px;
   height: 300px;
   display: flex;
   width: 30%;
